@@ -1,0 +1,67 @@
+.box {
+    display: flex;
+    align-items: center;
+}
+
+.box img {
+    width: 100px;
+    height: 50px
+}
+
+.box-2 span {
+    color: gray;
+    font-size: 0.7em
+}
+
+ul {
+    padding: 0;
+}
+
+.box-2 h4 {
+    margin: 0px;
+}
+
+.box-2 {
+    margin-left: 30px;
+}
+
+#mainDiv {
+    width: 60%;
+    margin: auto;
+    background-color: #fff;
+}
+
+.text1 {
+    border: 1px solid black;
+    border-radius: 3px;
+    text-align: center;
+    background-color: #9eeae7;
+    width: fit-content;
+    font-size: larger;
+    height: 30px;
+    color: #123242;
+    display: block;
+}
+
+.text2 {
+    text-align: center;
+    width: fit-content;
+    font-size: larger;
+    color: #123242;
+    font-size: medium
+}
+
+.text3 {
+    text-align: center;
+    width: fit-content;
+    font-size: larger;
+    color: #123242;
+}
+
+@media screen and (max-width: 968px) {
+    #mainDiv {
+        width: 100%;
+        margin: auto;
+        background-color: #fff;
+    }
+}
